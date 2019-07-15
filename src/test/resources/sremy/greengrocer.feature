@@ -2,7 +2,7 @@ Feature: Compute addition of fruits and vegetables
 
   Scenario: Several fruits and vegetables
     Given the following products price per kilo:
-      | name        | price_cts     |
+#      | name        | price_cts     |
       | apple       | 250           |
       | strawberry  | 690           |
       | peach       | 250           |
@@ -15,4 +15,4 @@ Feature: Compute addition of fruits and vegetables
       | strawberry  | 150           |
       | peach       | 200           |
       | abricot     | 250           |
-    Then The greengrocer bill should be 1
+    Then The greengrocer bill should be 365
